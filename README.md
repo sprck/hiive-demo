@@ -31,10 +31,10 @@ Deploys an Eks Cluster with networking, IAM roles, node groups, and an nginx sta
 ## Key module Components
 
      File	                       Description
-eks-cluster.tf	        |    EKS cluster, node group, SSH key pair
-iam.tf	                |   IAM roles/policies for EKS and nodes
-vpc.tf                  |   	Networking components (VPC, subnets, routes)
-eks-deploy.tf           |  	Kubernetes deployment/service resources
+eks-cluster.tf	              EKS cluster, node group, SSH key pair
+iam.tf	                      IAM roles/policies for EKS and nodes
+vpc.tf                      	Networking components (VPC, subnets, routes)
+eks-deploy.tf               	Kubernetes deployment/service resources
 
 ## Note
  
