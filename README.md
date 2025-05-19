@@ -1,4 +1,4 @@
-# hiive-demo-eks-deployment
+# hiive-eks-deployment
 
 Deploys an EKS cluster with networking, IAM roles, node groups, and an nginx startup page for testing.
 .
