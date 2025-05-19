@@ -1,6 +1,6 @@
-# hiive-demo-eks-deployment
+# hiive-eks-deployment
 
-Deploys an Eks Cluster with networking, IAM roles, node groups, and an nginx startup page for testing.
+Deploys an EKS cluster with networking, IAM roles, node groups, and an nginx startup page for testing.
 .
 ## Features
 - **VPC Architecture**: Public/private subnets with NAT gateways
