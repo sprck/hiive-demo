@@ -40,6 +40,7 @@ Deploys an EKS cluster with networking, IAM roles, node groups, and an nginx sta
  
 * Update
  eks-access-policy-arn in variables.tf:
+
  eks-access-policy-arn = "arn:aws:eks::YOUR_ACCOUNT_ID:cluster-access-policyAmazonEKSClusterAdminPolicy"
 
 
