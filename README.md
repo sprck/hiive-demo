@@ -24,17 +24,16 @@ Deploys an EKS cluster with networking, IAM roles, node groups, and an nginx sta
 
 ## Initialise and Deploy
  
- terraform init 
- terraform plan
- terraform apply 
+- terraform init 
+- terraform plan
+- terraform apply 
 
 ## Key module Components
-
-     File	                   Description
-- eks-cluster.tf	              -              EKS cluster, node group, SSH key pair
-- iam.tf	                      -              IAM roles/policies for EKS and nodes
-- vpc.tf                     	  -              Networking components (VPC, subnets, routes)
-- eks-deploy.tf             	  -              Kubernetes deployment/service resources
+ 
+* eks-cluster.tf	              .....          EKS cluster, node group, SSH key pair
+* iam.tf	                      .....          IAM roles/policies for EKS and nodes
+* vpc.tf                     	 .....          Networking components (VPC, subnets, routes)
+* eks-deploy.tf             	  .....          Kubernetes deployment/service resources
 
 ## Note
  
