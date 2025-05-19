@@ -17,10 +17,10 @@ Deploys an Eks Cluster with networking, IAM roles, node groups, and an nginx sta
 
 ## Configure Variables (terraform.tfvars)
 
- project_name = "hiive-eks-demo"
- region       = "your-region"
- vpc_cidr     = "choose cidr e.g 10.0.0.0/16"
- user_arn     = "arn:aws:iam::YOUR_ACCOUNT_ID:user/your-iam-user"
+- project_name = "hiive-eks-demo"
+- region       = "your-region"
+- vpc_cidr     = "choose cidr e.g 10.0.0.0/16"
+- user_arn     = "arn:aws:iam::YOUR_ACCOUNT_ID:user/your-iam-user"
 
 ## Initialise and Deploy
  
@@ -30,11 +30,11 @@ Deploys an Eks Cluster with networking, IAM roles, node groups, and an nginx sta
 
 ## Key module Components
 
-     File	                       Description
-* eks-cluster.tf	              EKS cluster, node group, SSH key pair
-* iam.tf	                      IAM roles/policies for EKS and nodes
-* vpc.tf                      	Networking components (VPC, subnets, routes)
-* eks-deploy.tf               	Kubernetes deployment/service resources
+     File	                   Description
+- eks-cluster.tf	              -              EKS cluster, node group, SSH key pair
+- iam.tf	                      -              IAM roles/policies for EKS and nodes
+- vpc.tf                     	  -              Networking components (VPC, subnets, routes)
+- eks-deploy.tf             	  -              Kubernetes deployment/service resources
 
 ## Note
  
