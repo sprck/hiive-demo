@@ -1,3 +1,5 @@
+## Eks Cluster Module
+## Creates the EKS cluster with a node group and configures access policies.
 resource "aws_eks_cluster" "eks_cluster" {
   name     = "${var.project_name}-cluster"
   role_arn = aws_iam_role.eks.arn

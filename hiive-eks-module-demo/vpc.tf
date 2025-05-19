@@ -1,3 +1,5 @@
+## VPC and Subnet module for EKS Cluster
+
 data "aws_availability_zones" "available" {}
 
 # VPC creation
