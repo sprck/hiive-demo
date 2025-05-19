@@ -31,15 +31,16 @@ Deploys an Eks Cluster with networking, IAM roles, node groups, and an nginx sta
 ## Key module Components
 
      File	                       Description
-eks-cluster.tf	              EKS cluster, node group, SSH key pair
-iam.tf	                      IAM roles/policies for EKS and nodes
-vpc.tf                      	Networking components (VPC, subnets, routes)
-eks-deploy.tf               	Kubernetes deployment/service resources
+* eks-cluster.tf	              EKS cluster, node group, SSH key pair
+* iam.tf	                      IAM roles/policies for EKS and nodes
+* vpc.tf                      	Networking components (VPC, subnets, routes)
+* eks-deploy.tf               	Kubernetes deployment/service resources
 
 ## Note
  
-* Update eks-access-policy-arn in variables.tf: eks-access-policy-arn =      
-  "arn:aws:eks::YOUR_ACCOUNT_ID:cluster-access-policyAmazonEKSClusterAdminPolicy"
+* Update
+ eks-access-policy-arn in variables.tf:
+ eks-access-policy-arn = "arn:aws:eks::YOUR_ACCOUNT_ID:cluster-access-policyAmazonEKSClusterAdminPolicy"
 
 
 ## Troubleshooting
