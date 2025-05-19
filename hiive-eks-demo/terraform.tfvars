@@ -1,5 +1,0 @@
-project_name = "hiive-demo"
-region = "ca-central-1"
-vpc_cidr = "10.0.0.0/16"
-container_image = "nginx:latest"
-user_arn = "arn:aws:iam::519027220433:user/cli-user"
